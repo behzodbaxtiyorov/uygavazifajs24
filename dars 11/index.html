@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+       <header>
+        <nav>
+          <ul>
+           <li class="logo"><img src="./img/logo.svg" alt=""></li>
+           <li class="home"><button onclick=""> <i class="fa-solid fa-bars"></i>Каталог</button></li>
+           <li class="abaut"><input type="text" placeholder="Найти товар"></li>
+           <li class="properties"><button onclick="saqlaToLocalStorage()"><img src="./img/yurak.svg" alt=""></button> <img src="./img/ikki.svg" alt=""> <button onclick="saveToLocalStorage()"><img src="./img/MainMenu.svg" alt=""></button></li>
+           <li class="contact"><a href="contact">contact</a></li>
+          </ul> 
+       </nav>
+       <div class="hero">
+        <h2>Молоко, сыр, яйцо</h2>
+       </div>
+       </header>
+       <main>
+        <div class="main1">
+          <input type="text" name="" id="search" placeholder="Фильтр" />
+    <button id="sb">search</button> <br><br> <br>
+
+    <h4>Цена:</h4><br>
+    <button>1</button>  -
+    <button>12</button>
+
+    <input type="range" id="price" name="points" min="0" max="10" />
+
+    
+        </div>
+        <div class="main2">
+          <ul class="list">
+            
+           
+          </ul>
+        </div>
+       </main>
+       <footer>
+        <ul class="fot-ul">
+          <li class="fot-logo">
+             <img src="./img/fot logo.svg" alt="">
+             <p>О компании</p>
+             <p>Контакты</p>
+             <p>Вакансии</p>
+             <p>Статьи</p>
+             <p>Политика обработки персональных данных</p>
+
+          </li>
+          <li class="fot-social">
+            <img src="./img/instagram.svg" alt="">
+            <img src="./img/facebook.svg" alt="">
+            <img src="./img/vkontakte.svg" alt="">
+            <img src="./img/ok.svg" alt="">
+          </li>
+          <li class="fot-contact">
+            <img src="./img/phone.svg" alt="">
+            <p>998992472001</p>
+          </li>
+        </ul>
+    </div>
+    
+
+    <script src="./main.js"></script>
+    
+  </body>
+</html>
+
+
+
