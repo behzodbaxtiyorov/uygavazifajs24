@@ -1,0 +1,34 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;align-items: center;
+    gap: 30px;
+    list-style: none;
+    width: 1300px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+li{
+    width: 350px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+li img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.add-button{
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: blue;
+    color: aliceblue;
+    border: 1px aliceblue;
+}
