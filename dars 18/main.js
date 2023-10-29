@@ -11,7 +11,7 @@ function getPhotos(url) {
     .then((res) => res.json())
     .then((data) => {
       let display = data.map((item) => {
-        return `<li data-id="${item.id}">
+        return `<li class="item" data-id="${item.id}">
                   <img src="${item.url}">
                   <h2>${item.title}</h2>
                   <button class="add-button">addtolocalStorage</button>

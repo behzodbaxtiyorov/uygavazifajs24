@@ -12,13 +12,14 @@
     margin: 0 auto;
     background-color: gainsboro;
 }
-li{
+.item{
     width: 350px;
     height: 350px;
     border: 1px solid;
     border-radius: 10px;
+    background-color: #ffffff;
 }
-li img{
+.item img{
     width: 350px;
     height: 200px;
     border-radius: 10px;
@@ -31,4 +32,24 @@ li img{
     background-color: blue;
     color: aliceblue;
     border: 1px aliceblue;
+}
+
+
+
+
+
+.nav-p{
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+}
+.nav-item{
+    width: 1300px;
+    height: 100px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
 }
